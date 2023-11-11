@@ -1,0 +1,104 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+header img {
+    cursor: pointer;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18.6px;
+}
+.header-topleft,
+.header-topright {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.header-bottom {
+    margin-top: 16px;
+    background-color: #f8f8f8;
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #d9fff5;
+}
+.header-bottomcontainer {
+    position: relative;
+}
+.header-bottomcontainer:before {
+    content: url(../images/highlight.png);
+    position: absolute;
+    height: 100%;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-bottomcontainer--descr {
+    font-family: lakes_mybold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: -0.6px;
+    color: #1b1c21;
+    margin-left: 16px;
+}
+.header-desctop {
+    display: none;
+}
+
+@media (min-width: 360px) {
+    .header-wrapper {
+        align-items: normal;
+    }
+    .header-bottomcontainer--descr {
+        margin-left: 0px;
+    }
+    .header-bottomcontainer:before {
+        left: -16px;
+    }
+}
+@media (min-width: 1119px) {
+    .header-desctop {
+        display: flex;
+    }
+    .header-wrapper {
+        display: none;
+    }
+    .header-top {
+        width: 100%;
+        margin-top: 24px;
+    }
+    .header-item-1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .header-item-1 img,
+    .header-item-2 img {
+        cursor: pointer;
+    }
+    .header-item-1 span {
+        color: #1b1c21;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.2px;
+        -webkit-text-stroke-width: 0.2px;
+    }
+    .header-bottomcontainer:before {
+        height: auto;
+        left: -32px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .header-topleft,
+    .header-topright {
+        gap: 28px;
+    }
+}
