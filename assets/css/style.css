@@ -34,13 +34,13 @@ body {
 .wrapper-thin {
   width: 288px;
 }
-.header-wrapper__top {
+.header-top {
   display: flex;
   justify-content: space-between;
   margin-top: 18.6px;
 }
-.header-wrapper__topleft,
-.header-wrapper__topright {
+.header-topleft,
+.header-topright {
   display: flex;
   gap: 16px;
   align-items: center;
@@ -58,17 +58,17 @@ body {
   transform: translateY(-50%);
   left: -20px;
 }
-.header-wrapper__bottom {
+.header-bottom {
   margin-top: 16px;
   background-color: #f8f8f8;
   width: 100%;
   position: relative;
   border-top: 1px solid #d9fff5;
 }
-.header-wrapper__bottomcontainer {
+.header-bottomcontainer {
   position: relative;
 }
-.header-wrapper__bottomcontainer:before {
+.header-bottomcontainer:before {
   content: url(../images/highlight.png);
   position: absolute;
   height: 100%;
@@ -76,7 +76,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-.header-wrapper__bottomcontainer--descr {
+.header-bottomcontainer--descr {
   font-family: lakes_mybold;
   font-size: 28px;
   font-style: normal;
@@ -160,7 +160,7 @@ body {
 .main-picture img {
   width: 100%;
 }
-.header-wrapper__desctop {
+.header-desctop {
   display: none;
 }
 .reviews {
@@ -180,10 +180,10 @@ body {
     margin-left: 16px;
     margin-right: 24px;
   }
-  .header-wrapper__bottomcontainer--descr {
+  .header-bottomcontainer--descr {
     margin-left: 0px;
   }
-  .header-wrapper__bottomcontainer:before {
+  .header-bottomcontainer:before {
     left: -16px;
   }
 }
@@ -214,13 +214,13 @@ body {
   }
 }
 @media (min-width: 1119px) {
-  .header-wrapper__desctop {
+  .header-desctop {
     display: flex;
   }
   .header-wrapper {
     display: none;
   }
-  .header-wrapper__top {
+  .header-top {
     width: 100%;
     margin-top: 24px;
   }
@@ -229,12 +229,12 @@ body {
     margin-right: 32px;
     background-color: #f8f8f8;
   }
-  .header-wrapper__topleft--item-1 {
+  .header-item-1 {
     display: flex;
     align-items: center;
     gap: 8px;
   }
-  .header-wrapper__topleft--item-1 span {
+  .header-item-1 span {
     color: #1b1c21;
     font-size: 16px;
     font-style: normal;
@@ -243,7 +243,7 @@ body {
     letter-spacing: -0.2px;
     -webkit-text-stroke-width: 0.2px;
   }
-  .header-wrapper__bottomcontainer:before {
+  .header-bottomcontainer:before {
     height: auto;
     left: -32px;
     top: 50%;
@@ -260,8 +260,8 @@ body {
     margin-top: -11px;
     gap: 0px;
   }
-  .header-wrapper__topleft,
-  .header-wrapper__topright {
+  .header-topleft,
+  .header-topright {
     gap: 28px;
   }
   .main {
