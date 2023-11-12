@@ -9,7 +9,7 @@ header img {
   cursor: pointer;
   width: auto;
 }
-.header-top {
+.header-mobile .container {
   display: flex;
   justify-content: space-between;
   margin-top: 18.6px;
@@ -49,9 +49,11 @@ header img {
   .header-mobile {
     display: none;
   }
-  .header-top {
+  .header-desctop .container {
     width: 100%;
     margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
   }
   .header__item {
     display: flex;
