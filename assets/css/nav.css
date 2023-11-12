@@ -1,6 +1,5 @@
 .nav-section ul {
   display: flex;
-  margin-left: 16px;
   overflow-x: scroll;
   gap: 19px;
   position: relative;
