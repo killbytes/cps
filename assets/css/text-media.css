@@ -5,11 +5,11 @@
 
     @media (min-width: 767px) {
         flex-direction: row;
+        gap: 36px;
     }
 
     @media (min-width: 1119px) {
         flex-direction: row;
-        gap: 32px;
     }
 }
 
