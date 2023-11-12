@@ -8,53 +8,53 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header class="header-wrapper container">
+    <header class="header-mobile container">
       <div class="header-top wrapper-thin">
-        <div class="header-topleft">
-          <div class="header-item-1">
+        <div class="header__left">
+          <div class="header__item">
             <img src="./assets/images/burger.png" alt="" />
           </div>
-          <div class="header-item-2">
+          <div class="header__item">
             <a href="#"><img src="./assets/images/Group.png" alt="" /></a>
           </div>
         </div>
-        <div class="header-topright">
-          <div class="header-item-1 hidden-item">
+        <div class="header__right">
+          <div class="header__item hidden-item">
             <img src="./assets/images/call.png" alt="" />
           </div>
-          <div class="header-item-1 hidden-item">
+          <div class="header__item hidden-item">
             <img src="./assets/images/chat.png" alt="" />
           </div>
-          <div class="header-item-1 hidden-item">
+          <div class="header__item hidden-item">
             <img src="./assets/images/profile.png" alt="" />
           </div>
-          <div class="header-item-1 stroke-item">
+          <div class="header__item stroke-item">
             <img src="./assets/images/repair.png" alt="" />
           </div>
-          <div class="header-item-1">
+          <div class="header__item">
             <img src="./assets/images/checkstatus.png" alt="" />
           </div>
         </div>
       </div>
       <div class="header-bottom">
-        <div class="header-bottomcontainer wrapper-thin">
-          <h1 class="header-bottomcontainer--descr">Услуги и сервисы</h1>
+        <div class="header__item-2 wrapper-thin">
+          <h1 class="header__item-2--descr">Услуги и сервисы</h1>
         </div>
       </div>
     </header>
     <header class="header-desctop container">
       <div class="header-top">
-        <div class="header-topleft">
-          <div class="header-bottomcontainer">
-            <h1 class="header-bottomcontainer--descr">Услуги и сервисы</h1>
+        <div class="header__left">
+          <div class="header__item-2">
+            <h1 class="header__item-2--descr">Услуги и сервисы</h1>
           </div>
         </div>
-        <div class="header-topright">
-          <div class="header-item-1">
+        <div class="header__right">
+          <div class="header__item">
             <span>Оставить заявку</span>
             <img src="./assets/images/repair.png" alt="" />
           </div>
-          <div class="header-item-1">
+          <div class="header__item">
             <span>Статус ремонта</span>
             <img src="./assets/images/checkstatus.png" alt="" />
           </div>
@@ -81,37 +81,33 @@
       </ul>
     </section>
     <section class="reviews container">
-        <p class="reviews__item">Отзывы</p>
+      <p class="reviews__item">Отзывы</p>
     </section>
     <main class="main container">
-      <div
-        class="main-content wrapper-thin main-content__item main-content__descr-item"
-      >
-        <div class="main-content__descr">
-          <div class="main-content__descr--first">
-            <p>
-              Мы являемся авторизованным сервисным центром по ремонту техники
-              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-              официальной гарантией производителя.
-            </p>
-            <p class="hidden-item">
-              Мы успешно работаем с 1992 года и заслужили репутацию надежного
-              партнера<span class="hidden-text"
-                >что подтверждает большое количество постоянных клиентов. Мы
-                гордимся тем, что к нам обращаются по рекомендациям и, в свою
-                очередь, советуют нас родным и близким.</span
-              >
-            </p>
+      <div class="main-content wrapper-thin main-content__item">
+        <div class="main__item-1">
+          <p>
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя.
+          </p>
+          <p class="hidden-item">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера<span class="hidden-text"
+              >что подтверждает большое количество постоянных клиентов. Мы
+              гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.</span
+            >
+          </p>
+        </div>
+        <div class="main__item-2">
+          <div class="main__item-2--icon">
+            <img src="./assets/images/icon.png" alt="" id="iconButton" />
           </div>
-          <div class="main-content__descr--next">
-            <div class="main-content__descr--next-icon">
-              <img src="./assets/images/icon.png" alt="" id="iconButton" />
-            </div>
-            <p>Читать далее</p>
-          </div>
+          <p>Читать далее</p>
         </div>
       </div>
-      <div class="main-picture main-content__item main-content__descr-item">
+      <div class="main-picture main-content__item">
         <picture>
           <source
             srcset="./assets/images/_MG1120.jpg"
