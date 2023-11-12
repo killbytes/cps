@@ -24,6 +24,16 @@ header img {
 .header-desctop {
   display: none;
 }
+
+.header-desctop {
+  .title {
+    left: -32px;
+  }
+  .title__descr {
+    padding-left: 32px;
+  }
+}
+
 .stroke-item {
   position: relative;
 }
