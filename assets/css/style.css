@@ -18,29 +18,23 @@
 
 @import "title.css";
 
+
 .hidden-item {
   display: none;
+  @media (min-width: 767px) {
+    display: block;
+    &:nth-child(3) {
+      margin-right: 20px;
+    }
+  }
+  @media (min-width: 1119px) {
+    margin-top: 18px;
+  }
 }
 
 .hidden-text {
   display: none;
-}
-
-
-@media (min-width: 767px) {
-  .hidden-item {
-    display: block;
-  }
-  .hidden-item:nth-child(3) {
-    margin-right: 20px;
-  }
-}
-
-@media (min-width: 1119px) {
-  .hidden-text {
+  @media (min-width: 1119px) {
     display: contents;
-  }
-  .hidden-item {
-    margin-top: 18px;
   }
 }
