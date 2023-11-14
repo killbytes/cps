@@ -4,7 +4,6 @@
   flex-direction: column;
   background-color: white;
 }
-
 header img {
   cursor: pointer;
   width: auto;
@@ -20,11 +19,9 @@ header img {
   gap: 16px;
   align-items: center;
 }
-
 .header-desctop {
   display: none;
 }
-
 .header-desctop {
   .title {
     left: -32px;
@@ -39,8 +36,8 @@ header img {
   background-size: cover;
   background-position: center;
   border: none;
+  background-color: unset;
 }
-
 .btn1 {
   background-image: url(../images/repair.png);
 }

@@ -1,22 +1,31 @@
-.nav-section ul {
+.nav ul {
   display: flex;
   overflow-x: scroll;
   gap: 19px;
   position: relative;
   padding-left: 0px;
+
+  &::-webkit-scrollbar {
+    height: 1px;
+    background-color: #f8f8f8;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #f8f8f8;
+  }
 }
-.nav-section li {
+
+.nav li {
   list-style: none;
 }
-.nav-section li span {
+.nav li span {
   cursor: pointer;
 }
-.nav-section__item {
+.nav__item {
   flex: 1;
   min-width: max-content;
   padding: 8px 10px;
 }
-.nav-section__item span {
+.nav__item span {
   color: #7e7e82;
   font-size: 16px;
   font-style: normal;
@@ -24,51 +33,35 @@
   line-height: 24px; /* 150% */
   letter-spacing: -0.2px;
 }
-.nav-section__item.active {
+.nav__item.active {
   border-radius: 6px;
   border: 2px solid #b8ffec;
   background-color: white;
 }
 @media (min-width: 767px) {
-  .nav-section {
+  .nav {
     margin-top: 16px;
   }
 }
 @media (min-width: 1096px) {
-  .nav-section::-webkit-scrollbar {
-    display: none;
+  .nav::-webkit-scrollbar {
+    /*display: none;*/
   }
 }
 @media (min-width: 1119px) {
-  .nav-section__item {
+  .nav__item {
     flex: 1;
     min-width: max-content;
     padding: 8px 18px;
     text-align: center;
   }
-  .nav-section {
+  .nav {
     margin-left: 0px;
     margin-top: -11px;
     gap: 0px;
   }
-  .nav-section__item span {
+  .nav__item span {
     text-align: center;
   }
 }
-@media (hover: hover) {
-  .nav-section ul::-webkit-scrollbar {
-    background-color: #b8ffec;
-    cursor: pointer;
-    height: 7px;
-  }
-  .nav-section ul::-webkit-scrollbar-track {
-    background-color: white;
-    width: 1px;
-    opacity: 0.5;
-  }
-  .nav-section ul::-webkit-scrollbar-thumb {
-    background-color: #8b008b;
-    filter: brightness(200%);
-    cursor: pointer;
-  }
-}
+
