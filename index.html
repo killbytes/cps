@@ -9,8 +9,8 @@
     <script src="./assets/js/script.js" defer></script>
   </head>
   <body>
-    <header class="header header-mobile">
-      <div class="container">
+    <header class="header">
+      <div class="header__mobile">
         <div class="header__left">
           <div class="header__item">
             <button class="header__item-btn btn8"></button>
@@ -41,8 +41,8 @@
         <!-- <h1 class="title__descr">Услуги и сервисы</h1> -->
       </div>
     </header>
-    <header class="header header-desctop">
-      <div class="container">
+    <header class="header">
+      <div class="header__desctop container">
         <div class="header__left">
           <div class="title">
             <!--   <h1 class="title__descr">Услуги и сервисы</h1> -->
@@ -60,36 +60,18 @@
         </div>
       </div>
     </header>
-    <div class="container">
-      <section class="nav">
-        <ul>
-          <li class="nav__item active">
-            <span>Ремонтируемые устройства</span>
-          </li>
-          <li class="nav__item">
-            <span>Ремонтируемые бренды</span>
-          </li>
-          <li class="nav__item">
-            <span>Цены на услуги</span>
-          </li>
-          <li class="nav__item">
-            <span>Адреса сервисных центров</span>
-          </li>
-          <li class="nav__item">
-            <span>Специальные цены</span>
-          </li>
-        </ul>
-      </section>
-    </div>
-    <section class="section">
-      <div class="container">
-        <nav class="breadcrumbs">
-          <ol class="breadcrumbs__list">
-            <li class="breadcrumbs__item">Отзывы</li>
-          </ol>
-        </nav>
-      </div>
+
+    <section class="nav">
+      <ul>
+        <li class="nav__item active">Ремонтируемые устройства</li>
+        <li class="nav__item">Ремонтируемые бренды</li>
+        <li class="nav__item">Цены на услуги</li>
+        <li class="nav__item">Адреса сервисных центров</li>
+        <li class="nav__item">Специальные цены</li>
+      </ul>
+      <li class="breadcrumbs__item">Отзывы</li>
     </section>
+
     <main class="main">
       <section class="section">
         <div class="container">
@@ -110,11 +92,7 @@
               </p>
               <div class="read-more">
                 <div class="read-more__icon">
-                  <img
-                    src="./assets/images/icon.png"
-                    alt="img"
-                    id="iconButton"
-                  />
+                  <button class="header__item-btn btn10"></button>
                 </div>
                 <button class="read-more__btn">Читать далее</button>
               </div>

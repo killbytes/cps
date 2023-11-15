@@ -3,7 +3,7 @@
   overflow-x: scroll;
   gap: 19px;
   position: relative;
-  padding-left: 0px;
+  padding-left: 16px;
 
   &::-webkit-scrollbar {
     height: 1px;
@@ -63,5 +63,7 @@
   .nav__item span {
     text-align: center;
   }
+  .nav ul {
+    padding-left: 32px;
+  }
 }
-
