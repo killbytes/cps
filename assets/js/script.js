@@ -1,6 +1,6 @@
-const mobile = document.querySelector(".header-mobile");
+const mobile = document.querySelector(".header__mobile");
 const mobileTitle = mobile.querySelector(".title");
-const desctop = document.querySelector(".header-desctop");
+const desctop = document.querySelector(".header__desctop");
 const desctopTitle = desctop.querySelector(".title");
 
 let addTitlt = () => {
