@@ -1,9 +1,8 @@
 .title {
-  margin-top: 16px;
   background-color: #f8f8f8;
   width: 100%;
-  border-top: 1px solid #d9fff5;
   position: relative;
+  margin: 0;
 }
 
 .title__descr {
@@ -15,6 +14,7 @@
   letter-spacing: -0.6px;
   color: #1b1c21;
   padding-left: 16px;
+  margin: 0;
 }
 
 .title__descr {
@@ -25,11 +25,5 @@
     top: -20px;
     left: 0;
     transform: translateY(50%);
-  }
-}
-
-@media (min-width: 1119px) {
-  .title {
-    border-top: none;
   }
 }
