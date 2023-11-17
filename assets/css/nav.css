@@ -17,6 +17,10 @@
 .nav li {
   list-style: none;
 }
+li a {
+  text-decoration: unset;
+  color: initial;
+}
 .nav li span {
   cursor: pointer;
 }

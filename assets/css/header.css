@@ -43,29 +43,26 @@ header img {
   background-position: center;
   border: none;
   background-color: unset;
+  cursor: pointer;
 }
-.btn1 {
-  background-image: url(../images/repair.png);
-}
-.btn2 {
-  background-image: url(../images/checkstatus.png);
-}
-.btn3 {
+
+.btn-call {
   background-image: url(../images/call.png);
 }
-.btn4 {
+.btn-messages {
   background-image: url(../images/chat.png);
 }
-.btn5 {
+.btn-user {
   background-image: url(../images/profile.png);
 }
-.btn6 {
+.btn-settings {
   background-image: url(../images/repair.png);
 }
-.btn7 {
+.btn-search {
   background-image: url(../images/checkstatus.png);
 }
-.btn8 {
+
+.btn-menu {
   background-image: url(../images/burger.png);
 }
 .stroke-item {

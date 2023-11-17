@@ -27,15 +27,16 @@
 
 .text-media__media {
     flex: 1;
+}
 
-    img {
-        width: calc(100% + 32px);
-        margin-left: -16px;
+.text-media__media img {
+    width: calc(100% + 32px);
+    margin-left: -16px;
 
-        @media (min-width: 360px) {
-            width: 100%;
-            margin-left: 0;
-        }
+    @media (min-width: 360px) {
+        width: 100%;
+        margin-left: 0;
     }
+}
 
 }
