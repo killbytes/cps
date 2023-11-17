@@ -6,10 +6,8 @@
   padding-left: 16px;
 
   &::-webkit-scrollbar {
-
     height: 3px;
     background-color: #f8f8f8;
-
   }
   &::-webkit-scrollbar-thumb {
     background-color: purple;
@@ -18,7 +16,7 @@
 
 .nav li {
   list-style: none;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .nav__item {
@@ -26,7 +24,7 @@ cursor: pointer;
   min-width: max-content;
   padding: 8px 10px;
 }
-.nav__item  {
+.nav__item {
   color: #7e7e82;
   font-size: 16px;
   font-style: normal;
@@ -62,7 +60,7 @@ cursor: pointer;
 }
 @media (min-width: 767px) {
   .nav {
-    margin-top: 16px;
+    /*  margin-top: 16px; */
   }
 }
 @media (min-width: 1096px) {
@@ -82,7 +80,7 @@ cursor: pointer;
     margin-top: -11px;
     gap: 0px;
   }
-  .nav__item  {
+  .nav__item {
     text-align: center;
   }
   .nav ul {

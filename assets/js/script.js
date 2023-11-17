@@ -16,6 +16,7 @@ let addTitlt = () => {
       );
 
       desctopTitle.insertAdjacentHTML("afterbegin", "");
+      desctopDescr.remove();
     }
   } /* (width >= 1119) */ else {
     if (!desctopDescr) {
@@ -24,6 +25,7 @@ let addTitlt = () => {
         '<h1 class="title__descr">Услуги и сервисы</h1>'
       );
       mobileTitle.insertAdjacentHTML("afterbegin", "");
+      descr.remove();
     }
   }
 };
