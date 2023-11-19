@@ -1,9 +1,8 @@
 .header__mobile {
   display: flex;
-  align-items: center;
   background-color: white;
   justify-content: space-between;
-  padding: 16px;
+  flex-direction: column;
   margin-bottom: 24px;
   border-bottom: 1px solid #d9fff5;
 
@@ -13,6 +12,16 @@
   @media (min-width: 1119px) {
     display: none;
   }
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header__mobile .title {
+  padding-top: 24px;
 }
 header img {
   cursor: pointer;
