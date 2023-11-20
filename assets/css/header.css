@@ -55,25 +55,6 @@ header img {
   cursor: pointer;
 }
 
-.btn-call {
-  background-image: url(../images/call.png);
-}
-.btn-messages {
-  background-image: url(../images/chat.png);
-}
-.btn-user {
-  background-image: url(../images/profile.png);
-}
-.btn-settings {
-  background-image: url(../images/repair.png);
-}
-.btn-search {
-  background-image: url(../images/checkstatus.png);
-}
-
-.btn-menu {
-  background-image: url(../images/burger.png);
-}
 .stroke-item {
   position: relative;
 }
