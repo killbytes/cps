@@ -18,7 +18,6 @@ let addTitle = () => {
 
       desctopTitle.insertAdjacentHTML("afterbegin", "");
     }
-    console.log('< 1119', desctopDescr)
     if (desctopDescr) {
       desctopDescr.remove();
     }
@@ -29,7 +28,6 @@ let addTitle = () => {
           '<h1 class="title__descr">Услуги и сервисы</h1>'
       );
       mobileTitle.insertAdjacentHTML("afterbegin", "");
-      console.log('>= 1119', descr)
       if (descr) {
         descr.remove();
       }
