@@ -3,7 +3,7 @@ const mobileTitle = mobile.querySelector(".title");
 const desctop = document.querySelector(".header__desctop");
 const desctopTitle = desctop.querySelector(".title");
 
-let addTitlt = () => {
+let addTitle = () => {
   const descr = mobileTitle.querySelector(".title__descr");
   const desctopDescr = desctopTitle.querySelector(".title__descr");
   let width = window.innerWidth;
@@ -14,8 +14,12 @@ let addTitlt = () => {
           "afterbegin",
           '<h1 class="title__descr">Услуги и сервисы</h1>'
       );
+      mobile.after(mobileTitle);
 
       desctopTitle.insertAdjacentHTML("afterbegin", "");
+    }
+    console.log('< 1119', desctopDescr)
+    if (desctopDescr) {
       desctopDescr.remove();
     }
   } /* (width >= 1119) */ else {
@@ -25,9 +29,12 @@ let addTitlt = () => {
           '<h1 class="title__descr">Услуги и сервисы</h1>'
       );
       mobileTitle.insertAdjacentHTML("afterbegin", "");
-      descr.remove();
+      console.log('>= 1119', descr)
+      if (descr) {
+        descr.remove();
+      }
     }
   }
 };
-document.addEventListener("DOMContentLoaded", addTitlt);
-window.addEventListener("resize", addTitlt);
+document.addEventListener("DOMContentLoaded", addTitle);
+window.addEventListener("resize", addTitle);
