@@ -14,6 +14,10 @@
   }
 }
 
+.nav {
+  margin-top: 16px;
+}
+
 .nav li {
   list-style: none;
 }
